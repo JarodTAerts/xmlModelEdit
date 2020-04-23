@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application>
+    <packageName>com.amaze.filemanagerZichongTest.debug</packageName>
+    <components>
+        <Component>
+            <type>service</type>
+            <name>com.example.dynamicencrypt.EncryptService</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>service</type>
+            <name>com.example.dynamicencrypt.DecryptService</name>
+            <RequiredPermissions/>
+            <IntentFilter/>
+            <PropagatedPermissions/>
+        </Component>
+    </components>
+    <newIntents/>
+    <ContentProviders/>
+    <usesPermissions/>
+    <actuallyUsesPermissions/>
+    <requiredPermissions/>
+    <apkFile>../../../app_repo/1-AmazeFileManager_dynamicsplits/split_DynamicEncrypt.apk</apkFile>
+    <name>split_DynamicEncrypt</name>
+</application>

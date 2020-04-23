@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application>
+    <packageName>com.amaze.filemanagerZichongTest.debug</packageName>
+    <components>
+        <Component>
+            <type>activity</type>
+            <name>com.example.dynamicfeature.AboutActivity</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.intent.action.VIEW</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+    </components>
+    <newIntents/>
+    <ContentProviders/>
+    <usesPermissions/>
+    <actuallyUsesPermissions/>
+    <requiredPermissions/>
+    <apkFile>../../../app_repo/1-AmazeFileManager_dynamicsplits/split_DynamicAbout.apk</apkFile>
+    <name>split_DynamicAbout</name>
+</application>
